@@ -1,0 +1,55 @@
+*{
+    background-image:linear-gradient(140deg,rgb(21, 0, 255), white, rgb(144, 0, 255))
+}
+button{
+    margin: 3px;
+    padding: 0%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 9, 2);
+    box-shadow: rgb(230, 0, 255) 6px 6px 6px;
+    font-size:85;
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    text-shadow:rgb(238, 0, 255) 8px 1px 10px  ;
+    cursor: pointer;
+    border: 2px solid black;
+    background-image:linear-gradient(140deg,rgb(0, 0, 0), white, rgb(255, 255, 255));
+
+    transition: 0.6s;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color:rgb(255, 194, 119);
+}
+h1{
+    background-color: antiquewhite;
+    text-shadow: grey 5px 2px;
+    font-size: 60;
+    text-align: center;
+    border-radius: 50%;
+    background-image:linear-gradient(orange, white);
+}
+table{
+    border-radius:21px;
+    padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.resetbutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:11px 171px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border:2px solid rgb(0, 0, 0);
+    font-size: medium;
+}
+
+.resetbutton:hover{
+    transform: scale(1.12);
+    transition: 0.6s ease;
+}
